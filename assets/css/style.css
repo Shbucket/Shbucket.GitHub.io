@@ -20,7 +20,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+span {
   font-family: "Raleway", sans-serif;
 }
 
@@ -67,7 +68,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #011938;
+  background: #154F75;
   overflow-y: auto;
 }
 
@@ -75,7 +76,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid black;
 }
 
 #header .profile h1 {
@@ -90,7 +91,7 @@ h6 {
 
 #header .profile h1 a,
 #header .profile h1 a:hover {
-  color: #fff;
+  color: white;
   text-decoration: none;
 }
 
@@ -98,7 +99,7 @@ h6 {
   font-size: 18px;
   display: inline-block;
   background: #212431;
-  color: #fff;
+  color: white;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -111,7 +112,7 @@ h6 {
 
 #header .profile .social-links a:hover {
   background: #149ddd;
-  color: #fff;
+  color: white;
   text-decoration: none;
 }
 
@@ -150,7 +151,7 @@ h6 {
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: white;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -160,14 +161,14 @@ h6 {
 .nav-menu a i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: white
 }
 
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 
 .nav-menu a:hover i,
@@ -214,7 +215,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: #53b4e0;
+  background: #2382C2;
   background-size: cover;
 }
 
@@ -638,7 +639,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background:black ;
 }
 
 #footer .copyright {
