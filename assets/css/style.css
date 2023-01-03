@@ -294,8 +294,7 @@ margin: 0 auto;
   padding: 0.25em 0.75em;
   min-width: 10ch;
   min-height: 44px;
-  display: inline-block;
- margin: 0 auto;
+  margin: 10px;
  font-weight: bold;
 }
 .projects {
@@ -325,6 +324,7 @@ margin: 0 auto;
 .project-item span {
    font-size: 1.2em;
    text-align: left;
+   line-height: 2;
 }
 
 /*--------------------------------------------------------------
@@ -372,6 +372,7 @@ section {
 --------------------------------------------------------------*/
 .about p {
   font-size: 2em;
+  line-height: 2;
 }
 
 /*--------------------------------------------------------------
@@ -381,6 +382,8 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
+  
 }
 .skills img {
   height: 200px;
