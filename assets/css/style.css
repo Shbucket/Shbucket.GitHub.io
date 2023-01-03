@@ -76,7 +76,7 @@ span {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid black;
+  border: 5px solid #385D75;
 }
 
 #header .profile h1 {
@@ -168,13 +168,13 @@ span {
 .nav-menu .active > a,
 .nav-menu li:hover > a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .nav-menu a:hover i,
 .nav-menu .active > a i,
 .nav-menu li:hover > a i {
-  color: #149ddd;
+  color: black;
 }
 
 /* Mobile Navigation */
@@ -639,7 +639,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background:black ;
+  background:#385D75;
 }
 
 #footer .copyright {
