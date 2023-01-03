@@ -280,6 +280,11 @@ h6 {
 .portfolio > .container {
   width: 100%;
 }
+.btn {
+  display: block;
+margin: 0 auto;
+  
+}
 .portfolio button {
   cursor: pointer;
   font-family: inherit;
