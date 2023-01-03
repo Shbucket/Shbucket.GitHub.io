@@ -22,7 +22,8 @@ h4,
 h5,
 h6,
 span,
-p {
+p
+ {
   font-family: "Raleway", sans-serif;
 }
 
@@ -289,7 +290,7 @@ margin: 0 auto;
 }
 .portfolio button {
   cursor: pointer;
-  font-family: inherit;
+  font-family:"Raleway", sans-serif ;
   background-color: white;
   border-radius: 8px;
   padding: 0.25em 0.75em;
